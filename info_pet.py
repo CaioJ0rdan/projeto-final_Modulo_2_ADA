@@ -46,11 +46,20 @@ def mostrar_informacoes_pet(petdata):
     print(f"Peso: {petdata[2]} kg")
     
 
-
-
-
-# Criando array para guardar informacoes dos pets 
+# Criando array para guardar informacoes dos pets
 Pets = []
 
-# Chama a função para coletar e exibir as informações do pet
-Pets.append(coletar_informacoes_pet())
+while(True):
+    operacao = input("Digite 1 para adicionar um pet\nDigite 2 para mostrar os pets\nDigite 3 para encerrar\n")                     
+    if(operacao == '1'):
+        # Chama a função para coletar e exibir as informações do pet
+        Pets.append(coletar_informacoes_pet())
+    elif(operacao == '2'):
+        #Mostra todos os pets registrados
+        for i in Pets:
+            mostrar_informacoes_pet(i)
+            print("")    
+    elif(operacao == '3'):
+        break;    
+    else:
+        print("Operacao Invalida")
