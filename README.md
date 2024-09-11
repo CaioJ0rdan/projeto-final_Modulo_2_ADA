@@ -8,6 +8,7 @@ Na primeira branch fiz dois commits, um para adicionar uma função para mostrar
 \
 Na segunda branch fiz seis commits, 3 para criar os arquivos (README, LICENSE, CONTRIBUITING) e  mais 3 para atualizá-los.
 \
+Depois disso fiz o merge das duas branchs na main e atualizei o README com um novo commit
 ## Licença = MIT License
 
 ## Como utilizar o código
